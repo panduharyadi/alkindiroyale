@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\KontakController;
 use App\Http\Controllers\PromoController;
@@ -28,3 +29,8 @@ Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/rooms', [RoomsController::class, 'index'])->name('rooms');
 Route::get('/promo', [PromoController::class, 'index'])->name('promo');
 Route::get('/kontak', [KontakController::class, 'index'])->name('kontak');
+
+
+// Routes admin
+Route::get('/admin', [AdminController::class, 'index'])->name('admin');
+Route::post('/store', [AdminController::class, 'store'])->name('store');

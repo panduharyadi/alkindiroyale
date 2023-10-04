@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
 use App\Models\Product;
 use Illuminate\Http\Request;
 
-class RoomsController extends Controller
+class AdminController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +15,7 @@ class RoomsController extends Controller
      */
     public function index()
     {
-        $product = Product::all();
-        return view('Pages.Rooms', compact('product'));
+        return view('Pages.Admin.admin');
     }
 
     /**
@@ -36,19 +36,27 @@ class RoomsController extends Controller
      */
     public function store(Request $request)
     {
-
         // $request->validate([
         //     'nama_kamar' => 'required|string',
-        //     'harga'      => 'required|'
+        //     'harga'      => 'required',
+        //     'deskripsi'  => 'required|string',
+        //     'image'      => 'string'
         // ]);
 
         // $file = $request->file('image');
         // $filename = sprintf('%s_%s.%s', date('Y-m-d'), md5(microtime(true)), $file->extension());
         // $image_path = $file->move('storage/product', $filename);
 
-        // Product::create([
+        $path = $request->file('image')->store('image');
 
-        // ]);
+        Product::create([
+            'nama_kamar' => $request->nama_kamar,
+            'harga'      => $request->harga,
+            'deskripsi'  => $request->deskripsi,
+            'image'      => $path
+        ]);
+
+        return redirect()->route('admin')->with('success', 'Product berhasil dibuat');
     }
 
     /**
@@ -60,7 +68,7 @@ class RoomsController extends Controller
     public function show($id)
     {
         $product = Product::find($id);
-        return view('Pages/DetailRooms', compact('product'));
+        return view('Pages.DetailRooms', compact('product'));
     }
 
     /**
@@ -94,6 +102,6 @@ class RoomsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        
     }
 }

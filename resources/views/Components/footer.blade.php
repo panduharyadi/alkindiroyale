@@ -46,11 +46,11 @@
             </div>
 
             {{-- warsil 2 --}}
-            <div class="col-md-3 col-sm-12 col-xs-12">
+            {{-- <div class="col-md-3 col-sm-12 col-xs-12">
                 <div class="footer-details">
                     <div class="mapouter"><div class="gmap_canvas" style="border-radius: 30px;"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=Jl. Wr. Sila, Cipedak, Kec. Jagakarsa, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12630&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://connectionsgame.org/">Connections NYT</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:300px;}.gmap_canvas {overflow:hidden;background:none!important;width:500px;height:300px;}.gmap_iframe {height:400px!important;}</style></div>
                 </div>
-            </div>
+            </div> --}}
         </div>
 
         <div class="copyright">
