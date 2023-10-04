@@ -25,10 +25,10 @@
                         <div class="collapse navigation navbar-collapse navbar-ex1-collapse remove-space">
                             <ul class="list-unstyled nav1 cl-effect-10">
                                 <li><a data-hover="Beranda" href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}"><span>Beranda</span></a></li>
-                                <li><a data-hover="About"  href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}"><span>Tentang Kami</span></a></li>
-                                <li><a data-hover="Rooms"  href="rooms.html"><span>Pilihan Kamar</span></a></li>
-                                <li><a data-hover="Gallery"  href="gallery.html"><span>Promo</span></a></li>
-                                <li><a data-hover="Dinning" href="dinning.html"><span>Kontak</span></a></li>
+                                <li><a data-hover="Tentang Kami"  href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}"><span>Tentang Kami</span></a></li>
+                                <li><a data-hover="Pilihan Kamar"  href="{{ route('rooms') }}" class="{{ request()->routeIs('rooms') ? 'active' : '' }}"><span>Pilihan Kamar</span></a></li>
+                                <li><a data-hover="Promo"  href="{{ route('promo') }}" class="{{ request()->routeIs('promo') ? 'active' : '' }}"><span>Promo</span></a></li>
+                                <li><a data-hover="Kontak" href="{{ route('kontak') }}" class="{{ request()->routeIs('kontak') ? 'active' : '' }}"><span>Kontak</span></a></li>
                             </ul>
 
                         </div>

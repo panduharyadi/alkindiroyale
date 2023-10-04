@@ -2,6 +2,9 @@
 
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\KontakController;
+use App\Http\Controllers\PromoController;
+use App\Http\Controllers\RoomsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,3 +25,6 @@ use Illuminate\Support\Facades\Route;
 // Routes Landing Pages Alkindi
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
+Route::get('/rooms', [RoomsController::class, 'index'])->name('rooms');
+Route::get('/promo', [PromoController::class, 'index'])->name('promo');
+Route::get('/kontak', [KontakController::class, 'index'])->name('kontak');
