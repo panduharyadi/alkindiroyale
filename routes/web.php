@@ -20,5 +20,5 @@ use Illuminate\Support\Facades\Route;
 // });
 
 // Routes Landing Pages Alkindi
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [AboutController::class, 'index'])->name('about');

@@ -295,8 +295,7 @@
                     <div class="side-B">
                         <div class="product-thumb">
                             <div class="image txt-rgt">
-                                <a class="arrow-left"><img src="{{ asset('assets/images/category3.png') }}"
-                                        class="img-responsive" alt="imaga"></a>
+                                <a class="arrow-left"><img src="" class="img-responsive" alt="imaga"></a>
                             </div>
                         </div>
                     </div>
@@ -313,8 +312,7 @@
                     <div class="side-B">
                         <div class="product-thumb txt-rgt">
                             <div class="image">
-                                <a class="arrow-left"><img src="{{ asset('assets/images/category4.png') }}"
-                                        class="img-responsive" alt="imaga"></a>
+                                <a class="arrow-left"><img src="" class="img-responsive" alt="imaga"></a>
                             </div>
                         </div>
                     </div>

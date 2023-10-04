@@ -1,10 +1,4 @@
-/*
-Template Name: vacayhome
-File Name: style.css
-Author Name: ThemeVault
-Author URI: http://www.themevault.net/
-License URI: http://www.themevault.net/license/
-*/
+
 
 /*@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');*/
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
@@ -162,7 +156,7 @@ ul{
 .book-now-btn {
     background: #fdbc02 none repeat scroll 0 0;
     border: medium none;
-    color: #fff;
+    color: #4e2102;
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0;
@@ -170,7 +164,7 @@ ul{
     text-transform: uppercase;
 }
 .book-now-btn:hover, .vacation-offer-details .btn.btn-default:hover{
-    background: #4e2102;
+    background: #fff;
 }
 
 .cl-effect-10 a::before, .cl-effect-10 a.active::before {
@@ -307,7 +301,7 @@ ul{
     transition: all 0.2s ease-in-out 0s;
 }
 .gallery-image a.info:hover, .gallery-image a.info > i:hover{
-    color: #e01931;
+    color: #4e2102;
 }
 .overlay p {
     bottom: 0;
@@ -326,7 +320,7 @@ ul{
     color: #fdbc02;
 }
 .vacation-offer-bgbanner {
-    background: rgba(0, 0, 0, 0) url("../images/vacation-banner.png") no-repeat scroll center center / cover ;
+    background: #4e2102 no-repeat scroll center center / cover ;
     color: #fff;
     position: relative;
     padding: 65px;
@@ -633,7 +627,7 @@ footer a{
     letter-spacing: 1px;
 }
 #back-to-top:hover{
-    background: #c01b21;
+    background: #4e2102;
 }
 #back-to-top > span {
     display: block;

@@ -24,7 +24,7 @@
                         </div>
                         <div class="collapse navigation navbar-collapse navbar-ex1-collapse remove-space">
                             <ul class="list-unstyled nav1 cl-effect-10">
-                                <li><a data-hover="Home" href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}"><span>Beranda</span></a></li>
+                                <li><a data-hover="Beranda" href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}"><span>Beranda</span></a></li>
                                 <li><a data-hover="About"  href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}"><span>Tentang Kami</span></a></li>
                                 <li><a data-hover="Rooms"  href="rooms.html"><span>Pilihan Kamar</span></a></li>
                                 <li><a data-hover="Gallery"  href="gallery.html"><span>Promo</span></a></li>
