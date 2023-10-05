@@ -38,22 +38,19 @@ class AdminController extends Controller
     {
         // $request->validate([
         //     'nama_kamar' => 'required|string',
-        //     'harga'      => 'required',
+        //     'harga'      => 'required|numeric',
         //     'deskripsi'  => 'required|string',
-        //     'image'      => 'string'
+        //     'image'      => 'image|mimes: jpeg, jpg, png|max: 2048'
         // ]);
 
-        // $file = $request->file('image');
-        // $filename = sprintf('%s_%s.%s', date('Y-m-d'), md5(microtime(true)), $file->extension());
-        // $image_path = $file->move('storage/product', $filename);
-
-        $path = $request->file('image')->store('image');
+        $image = $request->file('image');
+        $image->storeAs('public/storage/img', $image->hashName());
 
         Product::create([
             'nama_kamar' => $request->nama_kamar,
             'harga'      => $request->harga,
             'deskripsi'  => $request->deskripsi,
-            'image'      => $path
+            'image'      => $image->hashName()
         ]);
 
         return redirect()->route('admin')->with('success', 'Product berhasil dibuat');

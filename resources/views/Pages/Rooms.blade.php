@@ -11,7 +11,9 @@
                 <div class="side-A">
                     <div class="product-thumb">
                         <div class="image">
-                            <a><img src="{{ $p->image == null ? asset('assets/images/kamar1.jpeg') : asset('$p->image') }}" class="img-responsive" alt="{{ $p->nama_kamar }}"></a>
+                            <a>
+                                <img class="img-thumbnail w-50" src="{{ url('storage/img/'. $p->image) }}"alt="{{ $p->nama_kamar }}">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -20,7 +22,9 @@
                         <h3><a>{{ $p->nama_kamar }}</a></h3>
                         <p>{{ $p->deskripsi }}</p>
                         <span>Rp. {{ $p->harga }}</span><br>
-                        <div class="links"><a href="{{ $p->id }}">Detail?</a></div>
+                        <div class="links">
+                            <a href="{{ route('product.show', $p->id) }}">Detail?</a>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -29,7 +29,7 @@
         <div class="card">
             <h5 class="card-header">Featured</h5>
             <div class="card-body">
-                <form action="{{ route('store') }}" method="POST">
+                <form action="{{ route('store') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group">
                         <label for="image">Upload File</label>
