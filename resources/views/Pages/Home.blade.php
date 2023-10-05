@@ -14,22 +14,22 @@
             <li data-target="#myCarousel1" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="item active"> <img src="{{ asset('assets/images/banner.png') }}" style="width:100%; height: 500px"
+            <div class="item active"> <img src="{{ asset('assets/images/carousel/carousel1.jpg') }}" style="width:100%; height: 500px"
                     alt="First slide">
                 <div class="carousel-caption">
-                    <h1>vacayhome<br> spa & Resort</h1>
+                    <h1>Bersih & Nyaman</h1>
                 </div>
             </div>
-            <div class="item"> <img src="{{ asset('assets/images/banner2.png') }}" style="width:100%; height: 500px"
+            <div class="item"> <img src="{{ asset('assets/images/carousel/carousel2.jpg') }}" style="width:100%; height: 500px"
                     alt="Second slide">
                 <div class="carousel-caption">
-                    <h1>vacayhome<br> spa & Resort</h1>
+                    <h1>Desain Kekinian</h1>
                 </div>
             </div>
-            <div class="item"> <img src="{{ asset('assets/images/banner3.png') }}" style="width:100%; height: 500px"
+            <div class="item"> <img src="{{ asset('assets/images/carousel/carousel3.jpeg') }}" style="width:100%; height: 500px"
                     alt="Third slide">
                 <div class="carousel-caption">
-                    <h1>vacayhome<br> spa & Resort</h1>
+                    <h1>Pelayanan Ramah</h1>
                 </div>
             </div>
 
@@ -97,7 +97,7 @@
                             <a class="info pop example-image-link img-responsive"
                                 href="{{ asset('assets/images/kamar1.jpeg') }}" data-lightbox="example-1"><i
                                     class="fa fa-search" aria-hidden="true"></i></a>
-                            <p><a>delux room</a></p>
+                            <p><a>Alkindi Royale</a></p>
                         </div>
                     </div>
                 </div>
@@ -108,7 +108,7 @@
                             <a class="info pop example-image-link img-responsive"
                                 href="{{ asset('assets/images/kamar2.jpeg') }}" data-lightbox="example-1"><i
                                     class="fa fa-search" aria-hidden="true"></i></a>
-                            <p><a>super room</a></p>
+                            <p><a>Alkindi Royale</a></p>
                         </div>
                     </div>
                 </div>
@@ -119,7 +119,7 @@
                             <a class="info pop example-image-link img-responsive"
                                 href="{{ asset('assets/images/kamar3.jpeg') }}" data-lightbox="example-1"><i
                                     class="fa fa-search" aria-hidden="true"></i></a>
-                            <p><a>single room</a></p>
+                            <p><a>Alkindi Royale</a></p>
                         </div>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                             <a class="info pop example-image-link img-responsive"
                                 href="{{ asset('assets/images/kamar4.jpeg') }}" data-lightbox="example-1"><i
                                     class="fa fa-search" aria-hidden="true"></i></a>
-                            <p><a>double room</a></p>
+                            <p><a>Alkindi Royale</a></p>
                         </div>
                     </div>
                 </div>
@@ -146,11 +146,11 @@
                     <div class="col-md-5 col-sm-6 col-xs-12">
                         <div class="vacation-offer-details">
                             <h1>Alkindi Royale</h1>
-                            <h3>"Kost Alkindi Royale, Hunian Impian Paling Royal"</h4> <br>
-                                <h4>Alkindi Royale menghadirkan suasana hunian senyaman rumah sendiri. Memanjakan penghuni
+                            <h3 class="text-banner">"Kost Alkindi Royale, Hunian Impian Paling Royal"</h4> <br>
+                                <h4 class="text-banner">Alkindi Royale menghadirkan suasana hunian senyaman rumah sendiri. Memanjakan penghuni
                                     kost dengan berbagai macam fasilitas yang menunjang privasi, kenyamanan, dan praktis
                                     dalam belajar atau saat hybrid working</h5>
-                                    <button type="button" class="btn btn-default">Pilih Kamar</button>
+                                <button type="button" class="btn btn-default">Pilih Kamar</button>
                         </div>
                     </div>
                 </div>
@@ -174,7 +174,7 @@
                     </div>
                     <div class="side-B">
                         <div class="product-desc-side">
-                            <h3><a>Istirahat menjadi berkualitas</a></h3>
+                            <h3><a>Nyaman untuk istirahat</a></h3>
                             <p>Istirahat menjadi berkualitas dengan kasur pillow top yang empuknya bakal bikin tidur kamu
                                 makin nyenyak</p>
                         </div>
@@ -202,8 +202,8 @@
                 <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-right">
                     <div class="side-A">
                         <div class="product-desc-side">
-                            <h3><a>Lemari Baju</a></h3>
-                            <p>Lemari baju yang lengkap untuk menyimpan pakaian kesayanganmu agar tetap rapih</p>
+                            <h3><a>Fasilitas Kamar Lengkap</a></h3>
+                            <p>Terdapat lemari baju untuk menyimpan baju kesayanganmu</p>
 
                         </div>
                     </div>
@@ -285,9 +285,8 @@
                 <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-right">
                     <div class="side-A">
                         <div class="product-desc-side">
-                            <h3><a>petugas keamanan</a></h3>
-                            <p>Petugas keamanan yang berjaga-jaga 24 jam non-stop! Nggak bakal ada yang berani nyentuh
-                                barang-barangmu pokoknya!</p>
+                            <h3><a>Perabotan Lengkap</a></h3>
+                            <p>Untuk Fasilitas Kamar Lengkap</p>
 
                         </div>
                     </div>
@@ -295,12 +294,29 @@
                     <div class="side-B">
                         <div class="product-thumb">
                             <div class="image txt-rgt">
-                                <a class="arrow-left"><img src="" class="img-responsive" alt="imaga"></a>
+                                <a class="arrow-left"><img src="{{ asset('assets/images/resort/perabotan.jpg') }}" class="img-responsive" alt="imaga"></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="clear"></div>
+                <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-left">
+                    <div class="side-A">
+                        <div class="product-desc-side">
+                            <h3><a>Petugas Keamanan</a></h3>
+                            <p>Petugas keamanan yang berjaga-jaga 24 jam non-stop! Nggak bakal ada yang berani nyentuh
+                                barang-barangmu pokoknya!</p>
+                        </div>
+                    </div>
+
+                    <div class="side-B">
+                        <div class="product-thumb txt-rgt">
+                            <div class="image">
+                                <a class="arrow-left"><img src="{{ asset('assets/images/resort/keamanan.jpg') }}" class="img-responsive" alt="imaga"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-left">
                     <div class="side-A">
                         <div class="product-desc-side">
@@ -312,7 +328,7 @@
                     <div class="side-B">
                         <div class="product-thumb txt-rgt">
                             <div class="image">
-                                <a class="arrow-left"><img src="" class="img-responsive" alt="imaga"></a>
+                                <a class="arrow-left"><img src="{{ asset('assets/images/resort/parkir.jpg') }}" class="img-responsive" alt="imaga"></a>
                             </div>
                         </div>
                     </div>
@@ -338,18 +354,15 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <div class="blog-box">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                    printer took a galley of type and scrambled it to make a type specimen book. It has
-                                    survived not only</p>
+                                <p>Kamar nya bersih wc nya juga, maintenance nya oke penjaga kost dan yg punyan kos ramah semua, betah tinggal dsana selama 6 bulan, thanks alkindi kost</p>
                             </div>
                             <div class="blog-view-box">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="{{ asset('assets/images/client1.png') }}" class="media-object">
+                                        <img src="{{ asset('assets/images/testimoni/agam.jpg') }}" class="media-object">
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="media-heading blog-title">Walter Hucko</h3>
+                                        <h3 class="media-heading blog-title">Agfredo Agam</h3>
                                         <h5 class="blog-rev">Satisfied Customer</h5>
                                     </div>
                                 </div>
@@ -357,18 +370,15 @@
                         </div>
                         <div class="item">
                             <div class="blog-box">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                    printer took a galley of type and scrambled it to make a type specimen book. It has
-                                    survived not only</p>
+                                <p>Tempatnya bersih dan nyaman dan pemiliknya ramah ramah. Mantap</p>
                             </div>
                             <div class="blog-view-box">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="{{ asset('assets/images/client2.png') }}" class="media-object">
+                                        <img src="{{ asset('assets/images/testimoni/rifal.jpg') }}" class="media-object">
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="media-heading blog-title">Jules Boutin</h3>
+                                        <h3 class="media-heading blog-title">Fiakhai_</h3>
                                         <h5 class="blog-rev">Satisfied Customer</h5>
                                     </div>
                                 </div>
@@ -376,18 +386,15 @@
                         </div>
                         <div class="item">
                             <div class="blog-box">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                    printer took a galley of type and scrambled it to make a type specimen book. It has
-                                    survived not only</p>
+                                <p>Tempat nyaman, bersih, satpam 24 jam, lokasi dekat kemana-mana, harga ekonomis</p>
                             </div>
                             <div class="blog-view-box">
                                 <div class="media">
                                     <div class="media-left">
-                                        <img src="{{ asset('assets/images/client3.png') }}" class="media-object">
+                                        <img src="{{ asset('assets/images/testimoni/zami.jpg') }}" class="media-object">
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="media-heading blog-title">Attilio Marzi</h3>
+                                        <h3 class="media-heading blog-title">Faraday</h3>
                                         <h5 class="blog-rev">Satisfied Customer</h5>
                                     </div>
                                 </div>

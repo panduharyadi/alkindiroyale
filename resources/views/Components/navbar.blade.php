@@ -28,14 +28,14 @@
                                 <li><a data-hover="Tentang Kami"  href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}"><span>Tentang Kami</span></a></li>
                                 <li><a data-hover="Pilihan Kamar"  href="{{ route('rooms') }}" class="{{ request()->routeIs('rooms') ? 'active' : '' }}"><span>Pilihan Kamar</span></a></li>
                                 <li><a data-hover="Promo"  href="{{ route('promo') }}" class="{{ request()->routeIs('promo') ? 'active' : '' }}"><span>Promo</span></a></li>
-                                <li><a data-hover="Kontak" href="{{ route('kontak') }}" class="{{ request()->routeIs('kontak') ? 'active' : '' }}"><span>Kontak</span></a></li>
+                                <li><a data-hover="Kontak" href="#contact"><span>Kontak</span></a></li>
                             </ul>
 
                         </div>
                     </nav>
                 </div>
                 <div class="col-md-2  col-sm-4 col-xs-12 hidden-sm">
-                    <div class="text-right"><button type="button" class="book-now-btn">Pesan Sekarang</button></div>
+                    <div class="text-right"><a type="button" href="http://wa.me/6281230020063?text=Halo%20min,%20saya%20mau%20pesan%20kamar%20Alkindi%20Royale" class="btn book-now-btn">Pesan Sekarang</a></div>
                 </div>
             </div>
         </div>

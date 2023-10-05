@@ -15,8 +15,7 @@
                         </li>
                     </ul>
                     <div class="footer-social-icon">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="tiktok"><i class="fa fa-tiktok"></i></a>                           
+                        <a href="#"><i class="fa fa-facebook"></i></a>                          
                         <a href="#"><i class="fa fa-instagram"></i></a>
                     </div>
                 </div>

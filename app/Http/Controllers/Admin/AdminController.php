@@ -15,7 +15,7 @@ class AdminController extends Controller
      */
     public function index()
     {
-        return view('Pages.Admin.admin');
+        return view('Pages.Admin.Product');
     }
 
     /**
@@ -44,7 +44,7 @@ class AdminController extends Controller
         // ]);
 
         $image = $request->file('image');
-        $image->storeAs('public/storage/img', $image->hashName());
+        $image->storeAs('public/storage/', $image->hashName());
 
         Product::create([
             'nama_kamar' => $request->nama_kamar,

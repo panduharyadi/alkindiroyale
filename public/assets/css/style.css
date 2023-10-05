@@ -164,12 +164,13 @@ ul{
     text-transform: uppercase;
 }
 .book-now-btn:hover, .vacation-offer-details .btn.btn-default:hover{
-    background: #fff;
+    background: #4e2102;
+    color: #fdbc02;
 }
 
 .cl-effect-10 a::before, .cl-effect-10 a.active::before {
     background: #fdbc02;
-    color: #fff;
+    color: #4e2102;
     content: attr(data-hover);
     height: 100%;
     left: 0;
@@ -343,11 +344,16 @@ ul{
     margin-bottom: 25px;
     text-transform: uppercase;
 }
+
+.vacation-offer-details .text-banner {
+    text-align: justify;
+}
+
 .vacation-offer-details .btn.btn-default {
     background: #fdbc02 none repeat scroll 0 0;
     border: medium none;
     border-radius: 0;
-    color: #fff;
+    color: #4e2102;
     font-size: 16px;
     letter-spacing: 2px;
     margin-top: 35px;
@@ -444,7 +450,7 @@ ul{
 }
 /*footer*/
 footer {
-    background: black none repeat scroll 0 0;
+    background: #4e2102 none repeat scroll 0 0;
     color: #ddd !important;
     margin-top: 70px;
     padding: 50px 0 20px;
@@ -529,7 +535,7 @@ footer a{
 }
 /*blog slider*/
 .blog-box {
-    background: #000 none repeat scroll 0 0;
+    background: #fdbc02 none repeat scroll 0 0;
     color: #fff;
     padding: 45px 110px;
     border-radius: 15px 15px 0 0;
@@ -563,7 +569,7 @@ footer a{
     padding-bottom: 10px;
 }
 .blog-view-box {
-    background: #000 none repeat scroll 0 0;
+    background: black none repeat scroll 0 0;
     border-radius: 15px;
     color: #fff;
     margin-top: -15px;

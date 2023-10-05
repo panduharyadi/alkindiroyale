@@ -3,7 +3,7 @@
     @section('title', "About us")
 
     @section('content')
-        <section class="image-head-wrapper" style="background-image: url({{ asset('assets/images/banner3.jpg') }})">
+        <section class="image-head-wrapper" style="background-image: url({{ asset('assets/images/about.jpg') }})">
             <div class="inner-wrapper">
                 <h1>About us</h1>
             </div>
@@ -15,19 +15,20 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 about-left">
-                        <p>Lorem <label>ipsum</label> dol  <span>-sitamet</span></p>
+                        <p>Alkindi <label>Royale</label></p>
                     </div>
                     <div class="col-md-7 about-right">
-                        <h3>Lorem ipsum dolor sit amet, consec</h3>
-                        <p>Donec bibendum massa metus, vel aliquet nunc varius eu. Curabitur nec scelerisque dui. Quisque mattis libero et enim ultricies gravida. Nulla ut commodo massa, eget tincidunt ligula. Vivamus eu ante tincidunt, fermentum risus nec, pharetra turpis. Donec rhoncus eros sed felis aliquet tincidunt. In consectetur tempor quam</p>
-                        <ul class="list-unstyled list-inline">
-                            <li>Sed vitae facilisis nisi, in finibus lacus. Duis vel nulla orci.</li>
-                            <li>fringilla, at ultrices felis dignissim. Integer ultricies posuere odio</li>
-                            <li>Sed vestibulum mattis laoreet. Donec sollicitudin justo luctus nulla consectetur</li>
-                            <li>Nam dolor tellus, dictum sit amet libero eu, semper placerat massa.</li>
-                            <li>consectetur tempor quam, aliquam dignissim diam hendrerit nec. Cras sodales at nisl</li>
-                        </ul>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                        <h2>Kost Alkindi Royale, Hunian Impian Paling Royal</h2> <br>
+                        <h4>Selamat datang di Kost Alkindi Royale Kost dengan desain modern yang memukau menciptakan pengalaman hunian yang takterlupakan</h4>
+                            <br>
+                        <p>
+                            Emang boleh senyaman itu nge-kost di Alkindi Royale?
+
+                            Harus banget dong!!
+
+                            Alkindi Royale menghadirkan suasana hunian senyaman rumah sendiri. Memanjakan penghuni kost dengan berbagai macam fasilitas yang menunjang privasi, kenyamanan, dan praktis dalam belajar atau saat hybrid working.
+                        </p>
+                        <hr style="border-right: 2px solid #fdbc02;" />
                     </div>
                 </div>
                 <div class="clearfix"> </div>
