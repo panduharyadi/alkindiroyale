@@ -44,7 +44,7 @@ class AdminController extends Controller
         // ]);
 
         $image = $request->file('image');
-        $image->storeAs('public/storage/', $image->hashName());
+        $image->storeAs('public/storage/post', $image->hashName());
 
         Product::create([
             'nama_kamar' => $request->nama_kamar,
