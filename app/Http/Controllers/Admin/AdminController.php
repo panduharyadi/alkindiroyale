@@ -50,7 +50,8 @@ class AdminController extends Controller
             'nama_kamar' => $request->nama_kamar,
             'harga'      => $request->harga,
             'deskripsi'  => $request->deskripsi,
-            'image'      => $image->hashName()
+            'image'      => $image->hashName(),
+            'lokasi'     => $request->lokasi
         ]);
 
         return redirect()->route('admin')->with('success', 'Product berhasil dibuat');

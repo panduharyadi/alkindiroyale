@@ -12,6 +12,7 @@ class Product extends Model
         'nama_kamar',
         'harga',
         'deskripsi',
-        'image'
+        'image',
+        'lokasi'
     ];
 }

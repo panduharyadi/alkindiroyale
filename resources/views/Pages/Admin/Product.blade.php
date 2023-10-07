@@ -26,6 +26,12 @@
                     <div class="form-group">
                         <input type="file" class="form-control form-control-user" id="image" name="image" placeholder="Gambar Kamar">
                     </div>
+                    <div class="form-group">
+                        <select name="lokasi" id="lokasi">
+                            <option value="Kos Alkindi Royale 1">Kos Alkindi Royale 1</option>
+                            <option value="Kos Alkindi Royale 2">Kos Alkindi Royale 2</option>
+                        </select>
+                    </div>
                     <button type="submit" class="btn btn-primary btn-user btn-block">Add</button>
                 </form>
             </div>

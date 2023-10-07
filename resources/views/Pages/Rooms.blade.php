@@ -20,6 +20,7 @@
                 <div class="side-B">
                     <div class="product-desc-side">
                         <h3><a>{{ $p->nama_kamar }}</a></h3>
+                        <h4>{{ $p->lokasi }}</h4>
                         <p>{{ $p->deskripsi }}</p>
                         <span>Rp. {{ $p->harga }}</span><br>
                         <div class="links">
