@@ -51,13 +51,14 @@ class AdminController extends Controller
         $moneyFormatter = new IntlMoneyFormatter($numberFormatter, $currencies);
 
         $image = $request->file('image');
-        $image->storeAs('public/storage/', $image->hashName());
+        $image->storeAs('public/storage/post', $image->hashName());
 
         Product::create([
             'nama_kamar' => $request->nama_kamar,
             'harga'      => $moneyFormatter->format($hargaKamar),
             'deskripsi'  => $request->deskripsi,
-            'image'      => $image->hashName()
+            'image'      => $image->hashName(),
+            'lokasi'     => $request->lokasi
         ]);
 
         return redirect()->route('admin')->with('success', 'Product berhasil dibuat');

@@ -110,6 +110,7 @@ ul{
 
 /*carousel*/
 #myCarousel1 .carousel-caption {
+    background: transparent;
     bottom: auto;
     color: #fff;
     left: 50%;
