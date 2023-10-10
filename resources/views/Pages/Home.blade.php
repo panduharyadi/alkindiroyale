@@ -36,11 +36,13 @@
         </div>
         <a class="left carousel-control" href="#myCarousel1" data-slide="prev"> <img
                 src="{{ asset('assets/images/icons/left-arrow.png') }}"
-                onmouseover="this.src = '{{ asset('assets/images/icons/left-arrow-hover.png') }}'"
+                {{-- onmouseover="this.src = '{{ asset('assets/images/icons/left-arrow-hover.png') }}'" --}}
+                onmouseover="this.src = '{{ asset('assets/images/icons/kiri-icon.jpg') }}'"
                 onmouseout="this.src = '{{ asset('assets/images/icons/left-arrow.png') }}'" alt="left"></a>
         <a class="right carousel-control" href="#myCarousel1" data-slide="next"><img
                 src="{{ asset('assets/images/icons/right-arrow.png') }}"
-                onmouseover="this.src = '{{ asset('assets/images/icons/right-arrow-hover.png') }}'"
+                {{-- onmouseover="this.src = '{{ asset('assets/images/icons/right-arrow-hover.png') }}'" --}}
+                onmouseover="this.src = '{{ asset('assets/images/icons/kanan-icon.jpg') }}'"
                 onmouseout="this.src = '{{ asset('assets/images/icons/right-arrow.png') }}'" alt="left"></a>
 
     </div>

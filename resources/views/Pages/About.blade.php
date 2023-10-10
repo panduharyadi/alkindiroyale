@@ -3,7 +3,7 @@
     @section('title', "About us")
 
     @section('content')
-        <section class="image-head-wrapper" style="background-image: url({{ asset('assets/images/about.jpg') }})">
+        <section class="image-head-wrapper img-fluid" style="background-image: url({{ asset('assets/images/about3.jpg') }})">
             <div class="inner-wrapper">
                 <h1>About us</h1>
             </div>

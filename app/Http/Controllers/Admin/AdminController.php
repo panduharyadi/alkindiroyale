@@ -5,6 +5,9 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Product;
 use Illuminate\Http\Request;
+use Money\Currencies\ISOCurrencies;
+use Money\Formatter\IntlMoneyFormatter;
+use Money\Money;
 
 class AdminController extends Controller
 {
@@ -43,12 +46,16 @@ class AdminController extends Controller
         //     'image'      => 'image|mimes: jpeg, jpg, png|max: 2048'
         // ]);
 
+        $numberFormatter = new \NumberFormatter('id_ID', \NumberFormatter::CURRENCY);
+        $currencies = new ISOCurrencies();
+        $moneyFormatter = new IntlMoneyFormatter($numberFormatter, $currencies);
+
         $image = $request->file('image');
         $image->storeAs('public/storage/', $image->hashName());
 
         Product::create([
             'nama_kamar' => $request->nama_kamar,
-            'harga'      => $request->harga,
+            'harga'      => $moneyFormatter->format($hargaKamar),
             'deskripsi'  => $request->deskripsi,
             'image'      => $image->hashName()
         ]);

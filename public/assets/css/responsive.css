@@ -248,6 +248,12 @@ License URI: http://www.themevault.net/license/
     .gallery-block .col-xs-12 {
         width: 50%;
     }
+
+@media (min-width: 375px) and (max-width: 667px) {
+    .image-head-wrapper {
+        height: 450px;
+    }
+}
 }
 
 

@@ -28,7 +28,7 @@
                                 <li><a data-hover="Tentang Kami"  href="{{ route('about') }}" class="{{ request()->routeIs('about') ? 'active' : '' }}"><span>Tentang Kami</span></a></li>
                                 <li><a data-hover="Pilihan Kamar"  href="{{ route('rooms') }}" class="{{ request()->routeIs('rooms') ? 'active' : '' }}"><span>Pilihan Kamar</span></a></li>
                                 <li><a data-hover="Promo"  href="{{ route('promo') }}" class="{{ request()->routeIs('promo') ? 'active' : '' }}"><span>Promo</span></a></li>
-                                <li><a data-hover="Kontak" href="#contact"><span>Kontak</span></a></li>
+                                <li><a data-hover="Kontak" href="#Contact"><span>Kontak</span></a></li>
                             </ul>
 
                         </div>
