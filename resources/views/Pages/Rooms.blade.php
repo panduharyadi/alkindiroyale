@@ -32,46 +32,43 @@
         @endforeach
     </div>
 
-    {{-- <div class="rooms-card" id="rooms-card">
+    <div class="container">
+        <div class="matoa">
 
-    </div> --}}
+        </div>
+    </div>
 
 
-    {{-- <script>
-        const roomsCard = document.getElementById('rooms-card');
-        const valueCard = [
+    <script>
+        const valuesCards = [
+            { 
+            image: '../img/image1.png', 
+            title: 'title 1', 
+            content: 'super content 1',
+            },
             {
-                gambar:     '../../public/assets/images/kamar1.jpeg',
-                nama_kamar: 'kamar 1',
-                deskripsi:  'kamar pertama',
-                harga:      '2.500.000',
-            }
+            image: '../img/image2.png', 
+            title: 'title 2', 
+            content: 'super content 2'
+            },
+            { 
+            image: '../img/image-3.png', 
+            title: 'title3', 
+            content: 'blablablablbalbalbabla blablaba'
+            },
         ]
-
-        function returnCard(valueCard) {
-            return `
-            <div class="container">
-                    <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-right">
-                        <div class="side-A">
-                            <div class="product-thumb">
-                                <div class="image">
-                                    <a>
-                                        <img class="img-thumbnail w-50" src="${gambar}"alt="${nama_kamar}">
-                                    </a>
-                                </div>
-                            </div>
+        valuesCards.map(card=> {
+        var cardDiv = document.createElement('div');
+        cardDiv.innerHTML = `
+                        <div class="product-header">
+                        <img src="${card.image}"/>
                         </div>
-                        <div class="side-B">
-                            <div class="product-desc-side">
-                                <h3><a>${nama_kamar}</a></h3>
-                                <p>${deskripsi}</p>
-                                <span>Rp. ${harga}</span>
-                            </div>
-                        </div>
-                    </div>
-            </div>`
-        }
-
-        roomsCard.innerHTML = returnCard(valueCard);
-    </script> --}}
+                        <div class="product-content">
+                        <h4>${card.title}</h4>
+                        <p>${card.content}</p>
+                        </div> 
+                        <button class="info-button">+ info</button>`
+        document.getElementsByClassName('matoa')[0].appendChild(cardDiv);
+        })
+    </script>
 @endsection
