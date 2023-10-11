@@ -3,7 +3,7 @@
     @section('title', "About us")
 
     @section('content')
-        <section class="image-head-wrapper" style="background-image: url({{ asset('assets/images/about.jpg') }})">
+        <section class="image-head-wrapper img-fluid" style="background-image: url({{ asset('assets/images/about3.jpg') }})">
             <div class="inner-wrapper">
                 <h1>About us</h1>
             </div>
@@ -34,4 +34,51 @@
                 <div class="clearfix"> </div>
             </div>
         </section>
-    @endsection
+
+        <div class="container">
+            <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-right" id="list-matoa">
+
+            </div>
+        </div>
+
+<script>
+    
+    var rooms = [
+        [
+          "Tipe A",
+          "Alkindi Matoa",
+          "300",
+          "fasilitas"
+        ]
+    ]
+
+    var listRoom = document.getElementById('list-matoa')
+    function printRooms(array) {
+        var tampung = ""
+        for( var i = 0; i < array.length; i++ ) {
+            var loop =array[i]
+            tampung += `
+                <div class="side-A">
+                    <div class="product-thumb">
+                        <div class="image">
+                            <a>
+                                <img class="img-thumbnail w-50" src="{{ asset('assets/images/resort/resort1.jpeg') }}"alt="${loop[0]}">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="side-B">
+                    <div class="product-desc-side">
+                        <h3><a>${loop[0]}</a></h3>
+                        <p>${loop[3]}</p>
+                        <span>${loop[2]}</span>
+                    </div>
+                </div>
+            `
+        }
+        listRoom.innerHTML = tampung
+    }
+    printRooms(rooms)
+
+</script>
+@endsection

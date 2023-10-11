@@ -34,5 +34,7 @@
             </a>
 
         </div>
+
+    <script src="{{ asset('assets/js/myScript.js') }}"></script>
     </body>
 </html>
