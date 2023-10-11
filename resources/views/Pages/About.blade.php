@@ -48,7 +48,13 @@
           "Tipe A",
           "Alkindi Matoa",
           "300",
-          "fasilitas"
+          "./matoa/matoa1.png"
+          [
+            "3 Petak",
+            "Dapur Mini",
+            "Parkiran",
+            "Alat Mandi"
+          ]
         ]
     ]
 
@@ -62,7 +68,7 @@
                     <div class="product-thumb">
                         <div class="image">
                             <a>
-                                <img class="img-thumbnail w-50" src="{{ asset('assets/images/resort/resort1.jpeg') }}"alt="${loop[0]}">
+                                <img class="img-thumbnail w-50" src="${loop[3]}" alt="${loop[0]}">
                             </a>
                         </div>
                     </div>
@@ -72,6 +78,14 @@
                         <h3><a>${loop[0]}</a></h3>
                         <p>${loop[3]}</p>
                         <span>${loop[2]}</span>
+                        <p>Fasilitas</p>
+                        <span>
+                        <ul>
+                            <li>${loop[3][0]}</li>
+                            <li>${loop[3][1]}</li>
+                            <li>${loop[3][2]}</li>
+                            <li>${loop[3][3]}</li>
+                        </ul>
                     </div>
                 </div>
             `

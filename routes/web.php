@@ -6,6 +6,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\KontakController;
 use App\Http\Controllers\PromoController;
 use App\Http\Controllers\RoomsController;
+use App\Http\Controllers\VilaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,7 +30,7 @@ Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/rooms', [RoomsController::class, 'index'])->name('rooms');
 Route::get('/promo', [PromoController::class, 'index'])->name('promo');
 Route::get('/kontak', [KontakController::class, 'index'])->name('kontak');
-
+Route::get('/vila', [VilaController::class, 'vila'])->name('vila');
 
 // Routes admin
 Route::get('/admin', [AdminController::class, 'index'])->name('admin');
