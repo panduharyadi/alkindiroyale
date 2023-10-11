@@ -23,16 +23,20 @@
                         <h4>{{ $p->lokasi }}</h4>
                         <p>{{ $p->deskripsi }}</p>
                         <span>Rp. {{ $p->harga }}</span><br>
-                        <div class="links">
-                            <a href="{{ route('product.show', $p->id) }}">Detail?</a>
-                        </div>
+                        <ul style="list-style: none;">
+                            <li>{{ $p->petak }}</li>
+                            <li>{{ $p->set_bed }}</li>
+                            <li>{{ $p->dapur }}</li>
+                            <li>{{ $p->parkir }}</li>
+                            <li>{{ $p->alat_mandi }}</li>
+                        </ul>
                     </div>  
                 </div>
             </div>
         @endforeach
     </div>
 
-    <div class="container">
+    {{-- <div class="container">
         <div class="matoa">
 
         </div>
@@ -70,5 +74,5 @@
                         <button class="info-button">+ info</button>`
         document.getElementsByClassName('matoa')[0].appendChild(cardDiv);
         })
-    </script>
+    </script> --}}
 @endsection

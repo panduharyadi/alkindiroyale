@@ -45,7 +45,7 @@
                 <h1 style="color: #4e2102; text-align: center; margin-bottom: 20px;">Fasilitas Vila Kinditto</h1>
 
                 <div class="row">
-                    <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-left">
+                    <div class="col-md-3 col-sm-12 col-xs-12 remove-padd-left">
                         <div class="side-B">
                             <div class="product-thumb txt-rgt">
                                 <div class="image">
@@ -55,15 +55,13 @@
                         </div>
                         <div class="side-A">
                             <div class="product-desc-side">
-                                <h3 style=" color: #4e2102; text-shadow: 1px 1px 1px rgba(0,0,0,0.00); font-size: 22px; line-height: 24.2px; letter-spacing: 2px;"><a>Kamar</a></h3>
-                                <p style="margin-bottom: 40px;" class="blog-desc">Kinditto memiliki 3 kamar tidur yang asri dengan pemandangan laut, gunung, dan hutan. Kelengkapan semua kamar di Villa Kinditto memiliki TV LED, Wifi, AC, dan kamar mandi di setiap kamarnya.</p>
+                                <h3><a>Kamar</a></h3>
+                                <p class="blog-desc">Kinditto memiliki 3 kamar tidur yang asri dengan pemandangan laut, gunung, dan hutan. Kelengkapan semua kamar di Villa Kinditto memiliki TV LED, Wifi, AC, dan kamar mandi di setiap kamarnya.</p>
                             </div>
                         </div>
                     </div>
-                </div>
                 
-                <div class="row">
-                    <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-left">
+                    <div class="col-md-3 col-sm-12 col-xs-12 remove-padd-left">
                         <div class="side-B">
                             <div class="product-thumb txt-rgt">
                                 <div class="image">
@@ -73,15 +71,13 @@
                         </div>
                         <div class="side-A">
                             <div class="product-desc-side">
-                                <h3 style=" color: #4e2102; text-shadow: 1px 1px 1px rgba(0,0,0,0.00); font-size: 22px; line-height: 24.2px; letter-spacing: 2px;"><a>Kolam Renang</a></h3>
-                                <p style="margin-bottom: 40px;" class="blog-desc">Kinditto memiliki 3 kamar tidur yang asri dengan pemandangan laut, gunung, dan hutan. Kelengkapan semua kamar di Villa Kinditto memiliki TV LED, Wifi, AC, dan kamar mandi di setiap kamarnya.</p>
+                                <h3><a>Kolam Renang</a></h3>
+                                <p class="blog-desc">Kinditto memiliki 3 kamar tidur yang asri dengan pemandangan laut, gunung, dan hutan. Kelengkapan semua kamar di Villa Kinditto memiliki TV LED, Wifi, AC, dan kamar mandi di setiap kamarnya.</p>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-left">
+                    <div class="col-md-3 col-sm-12 col-xs-12 remove-padd-left">
                         <div class="side-B">
                             <div class="product-thumb txt-rgt">
                                 <div class="image">
@@ -91,15 +87,13 @@
                         </div>
                         <div class="side-A">
                             <div class="product-desc-side">
-                                <h3 style=" color: #4e2102; text-shadow: 1px 1px 1px rgba(0,0,0,0.00); font-size: 22px; line-height: 24.2px; letter-spacing: 2px;"><a>Dapur</a></h3>
-                                <p style="margin-bottom: 40px;" class="blog-desc">Kinditto memiliki 3 kamar tidur yang asri dengan pemandangan laut, gunung, dan hutan. Kelengkapan semua kamar di Villa Kinditto memiliki TV LED, Wifi, AC, dan kamar mandi di setiap kamarnya.</p>
+                                <h3><a>Dapur</a></h3>
+                                <p class="blog-desc">Kinditto memiliki 3 kamar tidur yang asri dengan pemandangan laut, gunung, dan hutan. Kelengkapan semua kamar di Villa Kinditto memiliki TV LED, Wifi, AC, dan kamar mandi di setiap kamarnya.</p>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-left">
+                    <div class="col-md-3 col-sm-12 col-xs-12 remove-padd-left">
                         <div class="side-B">
                             <div class="product-thumb txt-rgt">
                                 <div class="image">
@@ -109,15 +103,13 @@
                         </div>
                         <div class="side-A">
                             <div class="product-desc-side">
-                                <h3 style=" color: #4e2102; text-shadow: 1px 1px 1px rgba(0,0,0,0.00); font-size: 22px; line-height: 24.2px; letter-spacing: 2px;"><a>Ruang Makan</a></h3>
-                                <p style="margin-bottom: 40px;" class="blog-desc">Kinditto memiliki 3 kamar tidur yang asri dengan pemandangan laut, gunung, dan hutan. Kelengkapan semua kamar di Villa Kinditto memiliki TV LED, Wifi, AC, dan kamar mandi di setiap kamarnya.</p>
+                                <h3><a>Ruang Makan</a></h3>
+                                <p class="blog-desc">Kinditto memiliki 3 kamar tidur yang asri dengan pemandangan laut, gunung, dan hutan. Kelengkapan semua kamar di Villa Kinditto memiliki TV LED, Wifi, AC, dan kamar mandi di setiap kamarnya.</p>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-md-6 col-sm-12 col-xs-12 remove-padd-left">
+                    <div class="col-md-3 col-sm-12 col-xs-12 remove-padd-left">
                         <div class="side-B">
                             <div class="product-thumb txt-rgt">
                                 <div class="image">
@@ -127,8 +119,8 @@
                         </div>
                         <div class="side-A">
                             <div class="product-desc-side">
-                                <h3 style=" color: #4e2102; text-shadow: 1px 1px 1px rgba(0,0,0,0.00); font-size: 22px; line-height: 24.2px; letter-spacing: 2px;"><a>Ruang Tamu</a></h3>
-                                <p style="margin-bottom: 40px;" class="blog-desc">Kinditto memiliki 3 kamar tidur yang asri dengan pemandangan laut, gunung, dan hutan. Kelengkapan semua kamar di Villa Kinditto memiliki TV LED, Wifi, AC, dan kamar mandi di setiap kamarnya.</p>
+                                <h3><a>Ruang Tamu</a></h3>
+                                <p class="blog-desc">Kinditto memiliki 3 kamar tidur yang asri dengan pemandangan laut, gunung, dan hutan. Kelengkapan semua kamar di Villa Kinditto memiliki TV LED, Wifi, AC, dan kamar mandi di setiap kamarnya.</p>
                             </div>
                         </div>
                     </div>
@@ -158,60 +150,6 @@
                     </ul>
 
                     <div class="clearfix"> </div>
-                </div>
-                <div class="blog-list1">
-                    <h4>Popular Posts</h4>
-                    <div class="blog-list-top">
-                        <div class="blog-img">
-                            <a><img class="img-responsive" src="images/Home/img1.jpg" alt=""></a>
-                        </div>
-                        <div class="blog-text">
-                            <p><a>Lorem ipsum dolor sit amet, consectetuer</a></p>
-                            <span class="link">
-                                Sep 14, 2016
-                            </span>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
-
-                    <div class="blog-list-top">
-                        <div class="blog-img">
-                            <a><img class="img-responsive" src="images/Home/img3.jpg" alt=""></a>
-                        </div>
-                        <div class="blog-text">
-                            <p><a>Lorem ipsum dolor sit amet, consectetuer</a></p>
-                            <span class="link">
-                                Sep 14, 2016
-                            </span>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
-
-                    <div class="blog-list-top">
-                        <div class="blog-img">
-                            <a><img class="img-responsive" src="images/Home/img4.jpg" alt=""></a>
-                        </div>
-                        <div class="blog-text">
-                            <p><a>Lorem ipsum dolor sit amet, consectetuer</a></p>
-                            <span class="link">
-                                Sep 14, 2016
-                            </span>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
-
-                    <div class="blog-list-top">
-                        <div class="blog-img">
-                            <a><img class="img-responsive" src="images/Home/img5.jpg" alt=""></a>
-                        </div>
-                        <div class="blog-text">
-                            <p><a>Lorem ipsum dolor sit amet, consectetuer</a></p>
-                            <span class="link">
-                                Sep 14, 2016
-                            </span>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
                 </div>
             </aside>
         </div>

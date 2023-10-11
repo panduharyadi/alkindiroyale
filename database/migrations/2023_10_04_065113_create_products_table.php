@@ -20,6 +20,11 @@ return new class extends Migration
             $table->text('deskripsi');
             $table->string('image');
             $table->string('lokasi');
+            $table->string('petak')->nullable();
+            $table->string('set_bed')->nullable();
+            $table->string('dapur')->nullable();
+            $table->string('parkir')->nullable();
+            $table->string('alat_mandi')->nullable();
             $table->timestamps();
         });
     }

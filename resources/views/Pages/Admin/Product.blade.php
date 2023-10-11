@@ -17,7 +17,12 @@
                     <div class="form-group">
                         <input type="text" class="form-control form-control-user" id="nama_kamar" name="nama_kamar" placeholder="Nomor Kamar">
                     </div>
-                    <div id="js-format-input"></div>
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-user" id="harga" name="harga" placeholder="Harga Kamar">
+                    </div>
+                    {{-- <div id="js-format-input">
+                        
+                    </div> --}}
                     <div class="form-group">
                         <input type="text" class="form-control form-control-user" id="deskripsi" name="deskripsi" placeholder="Deskripsi Kamar">
                     </div>
@@ -29,6 +34,21 @@
                             <option value="Kos Alkindi Royale 1">Kos Alkindi Royale 1</option>
                             <option value="Kos Alkindi Royale 2">Kos Alkindi Royale 2</option>
                         </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-user" id="petak" name="petak" placeholder="Petak Kamar">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-user" id="set_bed" name="set_bed" placeholder="Set Bed Kamar">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-user" id="dapur" name="dapur" placeholder="Dapur?">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-user" id="parkir" name="parkir" placeholder="PArkir">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-user" id="alat_mandi" name="alat_mandi" placeholder="Alat Mandi?">
                     </div>
                     <button type="submit" class="btn btn-primary btn-user btn-block">Add</button>
                 </form>

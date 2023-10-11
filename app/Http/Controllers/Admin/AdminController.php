@@ -46,19 +46,20 @@ class AdminController extends Controller
         //     'image'      => 'image|mimes: jpeg, jpg, png|max: 2048'
         // ]);
 
-        $numberFormatter = new \NumberFormatter('id_ID', \NumberFormatter::CURRENCY);
-        $currencies = new ISOCurrencies();
-        $moneyFormatter = new IntlMoneyFormatter($numberFormatter, $currencies);
-
         $image = $request->file('image');
         $image->storeAs('public/storage/post', $image->hashName());
 
         Product::create([
             'nama_kamar' => $request->nama_kamar,
-            'harga'      => $moneyFormatter->format($hargaKamar),
+            'harga'      => $request->harga,
             'deskripsi'  => $request->deskripsi,
             'image'      => $image->hashName(),
-            'lokasi'     => $request->lokasi
+            'lokasi'     => $request->lokasi,
+            'petak'      => $request->petak,
+            'set_bed'    => $request->set_bed,
+            'dapur'      => $request->dapur,
+            'parkir'     => $request->parkir,
+            'alat_mandi' => $request->alat_mandi
         ]);
 
         return redirect()->route('admin')->with('success', 'Product berhasil dibuat');
