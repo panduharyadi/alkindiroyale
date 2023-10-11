@@ -20,6 +20,8 @@ return new class extends Migration
             $table->text('deskripsi');
             $table->string('image');
             $table->string('lokasi');
+            $table->string('petakan')->default('3 Petak');
+            
             $table->timestamps();
         });
     }
