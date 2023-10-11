@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Matoa;
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class AboutController extends Controller
@@ -13,8 +15,22 @@ class AboutController extends Controller
      */
     public function index()
     {
-        return view('Pages.About');
+        $product = Product::all();
+        $matoa = Matoa::all();
+        return view('Pages.About', compact('product', 'matoa'));
     }
+
+    // public function loopStat()
+    // {
+    //     $matoa = [
+    //         "tipe A",
+    //         "Alkindi Matoa",
+    //         "300",
+    //         "matoa1.png",
+    //     ];
+
+        
+    // }
 
     /**
      * Show the form for creating a new resource.

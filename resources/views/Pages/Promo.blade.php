@@ -21,7 +21,7 @@
                 <div class="product-thumb">
                     <div class="image">
                         <a>
-                            <img class="img-thumbnail w-50" src="{{ asset('assets/images/promo.jpg') }}" alt="">
+                            <img class="img-thumbnail w-50" src="../" alt="">
                         </a>
                     </div>
                 </div>

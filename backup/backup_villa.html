@@ -1,0 +1,51 @@
+@extends('Layout.layout')
+
+@section('title', 'Vila Kinditto')
+
+@section('content')
+<div class="container">
+<section class="blog">
+        <div class="row">
+            <div class="col">
+                <h1 style="text-align: center; margin-top: 20px; color: #4e2102;">Villa Kinditto</h1>
+
+                <div class="blog-image-single margin-top-small">
+                    <img src="../public/assets/images/matoa/matoa1.png" class="img-responsive">
+                </div>
+                <div class="container">
+                    <h1 style="text-align: center; margin-top: 20px; color: #4e2102;">Selamat Datang di Villa Kinditto</h1>
+                    
+                    <p class="blog-desc">
+                
+                        Jika Anda mencari villa yang dekat dengan pantai, fasilitas ramah keluarga, dan suasana intim bersama teman-teman Anda?
+                    <br><br>
+                        Maka, rumah liburan kami bisa menjadi pilihan yang tepat.
+                    <br><br>
+                        Villa Kinditto melayani Anda dengan pengalaman yang tidak akan terlupakan. Mulai dari pemandangan yang indah, suasana yang tenang, dan menenangkan jiwa Anda tentunya. Kinditto adalah tempat peristirahatan yang sempurna untuk istirahat dan relaksasi Anda dan mengekspresikan romansa pesona alam di Bali.
+
+                        Baik Anda sedang berlibur bulan madu atau menghabiskan waktu bersama keluarga dan teman, Kinditto memiliki pesona unik yang memikat setiap tamu untuk menikmati momen bermakna dan intim bersama. Selain itu, layanan yang disuguhkan oleh staf Kinditto pasti membuat Anda merasa seperti di rumah sendiri
+                    
+                    </p>                   
+                </div>
+
+                {{-- foto b --}}
+                <div class="blog-image-single margin-top-small">
+                    <img src="{{ asset('assets/images/vila/vila_b.jpeg') }}" class="img-responsive">
+                </div> 
+
+                {{-- foto c --}}
+                <div class="blog-image-single margin-top-small" style="margin-top: 15px;">
+                    <img src="{{ asset('assets/images/vila/vila_c.jpeg') }}" class="img-responsive">
+                </div> 
+                
+                <h3 style="text-align: center; margin-top: 20px"> Fasilitas Vila Kinditto</h3>
+
+                <div class="fasilitas">
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+@endsection

@@ -26,7 +26,7 @@
                         <div class="links">
                             <a href="{{ route('product.show', $p->id) }}">Detail?</a>
                         </div>
-                    </div>
+                    </div>  
                 </div>
             </div>
         @endforeach
@@ -42,7 +42,7 @@
     <script>
         const valuesCards = [
             { 
-            image: '../img/image1.png', 
+            image: '../assets/images/matoa/matoa1.png', 
             title: 'title 1', 
             content: 'super content 1',
             },

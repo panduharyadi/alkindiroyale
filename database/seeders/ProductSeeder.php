@@ -21,6 +21,7 @@ class ProductSeeder extends Seeder
             'harga'       => '2000',
             'deskripsi'   => 'kamar nomor 1',
             'image'       => '/assets/images/kamar1.jpeg',
+            'lokasi'      => 'Alkindi 1'
         ]);
 
         Product::create([
@@ -28,6 +29,7 @@ class ProductSeeder extends Seeder
             'harga'       => '2000',
             'deskripsi'   => 'kamar nomor 2',
             'image'       => '/storage/product/kamar2.jpeg',
+            'lokasi'      => 'Alkindi 2'
         ]);
     }
 }
